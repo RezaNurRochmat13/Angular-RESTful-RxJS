@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">Form Edit Product</div>
+    <div class="panel-body">
+      <form routerLink="/home/product">
+        <div class="form-group">
+          <label>Product Name</label>
+          <input type="text" class="form-control" placeholder="Product name">
+        </div>
+        <div class="form-group">
+          <label>Description</label>
+          <input type="text" class="form-control" placeholder="Description">
+        </div>
+        <div class="form-group">
+          <button type="submit" (click)="clickMethod()" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-danger">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
