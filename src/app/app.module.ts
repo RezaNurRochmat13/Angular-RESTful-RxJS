@@ -36,6 +36,7 @@ import { CategoryApiService } from './category-api/category-api.service';
     HeaderLoginComponent,
     HomeAddProductComponent,
     HomeEditProductComponent
+
   ],
   imports: [
     BrowserModule,

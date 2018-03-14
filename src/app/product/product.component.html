@@ -13,9 +13,10 @@
         <tr *ngFor="let product of aArray">
           <td class="text-center" style="width: 15px;">{{ product.name }}</td>
           <td class="text-center" style="width: 15px;">{{ product.description }}</td>
+          <!-- <td class="text center"> {{ tanggalsaiki | date }}</td> -->
           <td>
             <a routerLink="/home/product/edit" class="btn btn-primary">Edit</a>
-            <a routerLink="/home/product" (click)="deleteEvent()" class="btn btn-danger">Delete</a>
+            <a routerLink="/home/product" (click)="deleteProduct(product)" class="btn btn-danger">Delete</a>
           </td>
         </tr>
       </table>
